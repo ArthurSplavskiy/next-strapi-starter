@@ -1,0 +1,35 @@
+{
+	"compilerOptions": {
+		"target": "es5",
+		"lib": ["dom", "dom.iterable", "esnext"],
+		"allowJs": true,
+		"skipLibCheck": true,
+		"strict": true,
+		"forceConsistentCasingInFileNames": true,
+		"noEmit": true,
+		"esModuleInterop": true,
+		"module": "esnext",
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		"jsx": "preserve",
+		"incremental": true,
+		"baseUrl": ".",
+		"paths": {
+			"@Styles/*": ["styles/*"],
+			"@Context/*": ["src/Context/*"],
+			"@Hooks/*": ["src/Hooks/*"],
+			"@Services/*": ["src/Services/*"],
+			"@GraphQL/*": ["src/Services/GraphQL/*"],
+			"@Types/*": ["src/Types/*"],
+			"@Utils/*": ["src/Utils/*"],
+			"@Components/*": ["src/View/components/*"],
+			"@Layout/*": ["src/View/layout/*"],
+			"@Modules/*": ["src/View/modules/*"],
+			"@Pages/*": ["src/View/pages/*"],
+			"@Section/*": ["src/View/section/*"]
+		}
+	},
+	"include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+	"exclude": ["node_modules"]
+}
