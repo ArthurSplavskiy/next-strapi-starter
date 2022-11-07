@@ -17,6 +17,7 @@
 		"baseUrl": ".",
 		"paths": {
 			"@Styles/*": ["styles/*"],
+			"@Api/*": ["src/Api/*"],
 			"@Context/*": ["src/Context/*"],
 			"@Hooks/*": ["src/Hooks/*"],
 			"@Services/*": ["src/Services/*"],
